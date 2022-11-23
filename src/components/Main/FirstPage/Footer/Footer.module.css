@@ -1,0 +1,64 @@
+.Footer {
+  position: relative;
+  background-color: black;
+  top: 100px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Red Rose";
+  text-align: left;
+  color: white;
+}
+
+.Logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Metabnb {
+  margin-bottom: 80px;
+}
+
+.Svg {
+  margin: 0 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+.Svg:hover {
+  cursor: pointer;
+}
+
+.Svg:hover > path {
+  fill: #a02279;
+}
+
+.cpr {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.fLinks > h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.fLinks > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 925px) {
+  .Footer {
+    flex-direction: column-reverse;
+  }
+
+  .Logos {
+    margin-top: 30px;
+  }
+}

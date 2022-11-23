@@ -1,0 +1,30 @@
+.Text {
+  width: 40%;
+  padding: 0 15px 0 0;
+}
+
+.Text > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+}
+
+.Text > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Button {
+  background-color: white;
+  color: #a02279;
+}
+
+@media screen and (max-width: 925px) {
+  .Text {
+    width: auto;
+  }
+}

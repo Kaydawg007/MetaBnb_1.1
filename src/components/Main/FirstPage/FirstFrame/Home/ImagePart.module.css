@@ -1,0 +1,16 @@
+.Image {
+  width: 40%;
+}
+
+@media screen and (max-width: 1028px) {
+  .Image {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .Image {
+    margin-top: 40px;
+    width: auto;
+  }
+}

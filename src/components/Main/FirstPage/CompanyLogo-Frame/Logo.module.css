@@ -1,0 +1,19 @@
+.Logos {
+  display: flex;
+  padding: 15px 60px;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  position: relative;
+  top: 120px;
+}
+
+@media screen and (max-width: 925px) {
+  .Logos {
+    flex-direction: column;
+    top: 60px;
+  }
+
+  .Logos > img {
+    margin: 12px 0;
+  }
+}

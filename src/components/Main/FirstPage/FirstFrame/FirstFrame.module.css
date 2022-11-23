@@ -1,0 +1,15 @@
+.scnPart {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 110px;
+  padding: 60px 60px;
+}
+
+@media screen and (max-width: 925px) {
+  .scnPart {
+    flex-direction: column;
+    top: 30px;
+    padding: 50px;
+  }
+}

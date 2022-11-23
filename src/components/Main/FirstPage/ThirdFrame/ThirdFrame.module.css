@@ -1,0 +1,17 @@
+.ThirdFrame {
+  position: relative;
+  top: 100px;
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a02279;
+  color: white;
+  font-family: "Red Rose";
+}
+
+@media screen and (max-width: 925px) {
+  .ThirdFrame {
+    flex-direction: column;
+  }
+}

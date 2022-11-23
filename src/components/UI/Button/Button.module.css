@@ -1,0 +1,12 @@
+.Button {
+  background: #a02279;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 25px;
+  border: 1px solid #a02279;
+  font-size: 16px;
+  font-family: "Red Rose";
+  font-style: normal;
+  cursor: pointer;
+  transition: background 0.3s ease-in;
+}

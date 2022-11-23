@@ -1,0 +1,44 @@
+.backDrop {
+  background: rgba(64, 64, 64, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  overflow: hidden;
+  top: 78px;
+}
+
+.menu {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  padding: 50px;
+  z-index: 10;
+  top: 78px;
+  font-size: 24px;
+  font-family: "red rose";
+  left: 20%;
+  animation: slide-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes slide-left {
+  0% {
+    /* -webkit-transform: scale(0.5); */
+    transform: translateX(80%);
+  }
+  100% {
+    /* -webkit-transform: scale(1); */
+    transform: translateX(0);
+  }
+}
+
+.MenuBarOff {
+  display: none;
+}
+
+@media screen and (max-width: 925px) {
+  .MenuBarOn {
+    display: block;
+  }
+}

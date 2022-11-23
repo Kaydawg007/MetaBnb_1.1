@@ -1,0 +1,23 @@
+.NFTs {
+  position: relative;
+  top: 110px;
+  padding: 30px;
+  text-align: center;
+}
+
+.NFTs > h2 {
+  font-family: "Red Rose";
+  font-size: 48px;
+  font-weight: 700;
+  /* line-height: 60px; */
+}
+
+.ImageBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ImageBox > img {
+  padding: 10px 5px;
+}
